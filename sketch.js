@@ -135,6 +135,8 @@ function draw() {
   fill("pink")
   blocks9.display();
   text("PRESS THE SPACE KEY TO RESTART",600,250)
+  text("Drag the polygon to destroy the blocks",300,30)
+  textSize(10);
  //imageMode(CENTER)
  //ball = loadImage(polygon_img ,ball.position.x-50,ball.position.y-80,40,40);
  // ellipseMode(RADIUS);
